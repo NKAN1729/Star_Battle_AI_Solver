@@ -1,7 +1,7 @@
 from image_processing import gray_image, detect_grid_size, process_starbattle_map
 
 # Star Battle Map
-gray = gray_image('Star Battle Puzzle 7.png')
+gray = gray_image('Star Battle Puzzle 8.png')
 grid = detect_grid_size(gray)
 df = process_starbattle_map(gray, grid)
 
